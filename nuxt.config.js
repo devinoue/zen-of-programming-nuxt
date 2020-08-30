@@ -22,7 +22,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'GPT-3によって生成されたプログラマー向け箴言をランダムに表示します',
+          'GPT-3によって生成されたプログラマー向け箴言・名言をランダムに表示します',
       },
       {
         hid: 'og:description',
@@ -30,8 +30,18 @@ export default {
         content:
           'GPT-3によって生成されたプログラマー向け箴言をランダムに表示します',
       },
-      { hid: 'og:url', property: 'og:type', content: 'https://example.com' },
+      {
+        hid: 'og:url',
+        property: 'og:type',
+        content: 'https://zen-of-programming.netlify.app',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/ogp.jpg',
+      },
     ],
+
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       {
