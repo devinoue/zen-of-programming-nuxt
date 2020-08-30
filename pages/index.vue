@@ -19,7 +19,9 @@ import { onMounted, ref, reactive, toRefs } from '@vue/composition-api'
 import axios from 'axios'
 export default {
   setup() {
-    const endPoint = process.env.END_POINT || ''
+    const endPoint =
+      process.env.END_POINT ||
+      'https://6cngqarsej.execute-api.ap-northeast-1.amazonaws.com/dev/get'
     const message = ref('')
     const result = reactive({
       author: '',
