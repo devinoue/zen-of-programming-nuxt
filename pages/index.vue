@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <TheHeader />
-    {{ message }}
+    <span v-if="message">{{ message }}</span>
+
     <div>
       <div id="px-6 english-quote" class="text-english">{{ english }}</div>
       <AppHr class="m-5" />
