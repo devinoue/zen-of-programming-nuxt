@@ -5,9 +5,9 @@
 
     <div>
       <div id="px-6 english-quote" class="text-english">{{ english }}</div>
-      <AppHr class="m-5" />
+      <AppHr class="m-12" />
       <div id="px-6 japanese-quote" class="text-japanese">{{ japanese }}</div>
-      <span class="inline-block m-5"> - </span>
+      <span class="inline-block m-5"> </span>
       <div id="author" class="text-author">{{ author }}</div>
     </div>
     <TheFooter />

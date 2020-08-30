@@ -1,6 +1,6 @@
 <template>
-  <header class="w-full header">
-    <div class="mt-3 text-2xl mx-auto w-full text-logo">
+  <header class="w-full header bg-black">
+    <div class="m-2 text-2xl mx-auto w-full text-logo text-white">
       The Zen of Programming
     </div>
   </header>
@@ -20,6 +20,8 @@ export default {
   top: 0;
 }
 .text-logo {
-  font-family: 'Roboto Mono', serif;
+  font-family: 'freight-display-pro', serif;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 </style>
