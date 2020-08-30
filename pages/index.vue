@@ -26,10 +26,8 @@ export default {
       english: '',
       japanese: '',
     })
-    console.log('setup')
     onMounted(async () => {
       try {
-        console.log('start')
         const res: any = await axios.get(endPoint)
         console.log(res)
         result.author = res.data.author
