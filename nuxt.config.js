@@ -28,7 +28,7 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'GPT-3によって生成されたプログラマー向け箴言をランダムに表示します',
+          'GPT-3によって生成されたプログラマー向け箴言・名言をランダムに表示します',
       },
       {
         hid: 'og:url',
@@ -39,6 +39,22 @@ export default {
         hid: 'og:image',
         property: 'og:image',
         content: 'https://zen-of-programming.netlify.app/ogp.jpg',
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:title',
+        property: 'twitter:title',
+        content: 'The Zen of Programming | プログラミング偽箴言集',
+      },
+      {
+        hid: 'twitter:description',
+        property: 'twitter:description',
+        content:
+          'GPT-3によって生成されたプログラマー向け箴言・名言をランダムに表示します',
       },
     ],
 
