@@ -26,7 +26,7 @@ export default {
       english: '',
       japanese: '',
     })
-
+    console.log('setup')
     onMounted(async () => {
       try {
         console.log('start')
