@@ -38,7 +38,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/ogp.jpg',
+        content: 'https://zen-of-programming.netlify.app/ogp.jpg',
       },
     ],
 
