@@ -21,10 +21,25 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content:
+          'GPT-3によって生成されたプログラマー向け箴言をランダムに表示します',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'GPT-3によって生成されたプログラマー向け箴言をランダムに表示します',
+      },
+      { hid: 'og:url', property: 'og:type', content: 'https://example.com' },
+    ],
+    link: [
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      {
+        rel: 'apple-touch-icon',
+        size: '180x180',
+        href: '/apple-touch-icon.png',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Global CSS
